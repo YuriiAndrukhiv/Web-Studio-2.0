@@ -1,0 +1,62 @@
+:root {
+  --prinary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --background-color: #ffffff;
+  --accent-color: #2196f3;
+  --logo-first-world-color: #000000;
+}
+
+body {
+  color: #212121;
+  background: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+/* logo */
+
+.logo1 {
+  color: #2196f3;
+}
+
+.logo2 {
+  color: #212121;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Contacts */
+
+.contacts .link {
+  color: #757575;
+}
+
+.contacts .link:hover,
+.contacts .link:hover {
+  color: #2196f3;
+}
+
+/* Hero */
+
+.hero-title {
+}
+
+/* Section */
+
+.section-title {
+}
+
+.description {
+  color: #757575;
+}

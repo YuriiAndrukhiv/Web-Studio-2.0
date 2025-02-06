@@ -1,14 +1,14 @@
 :root {
   --prinary-text-color: #212121;
   --secondary-text-color: #757575;
-  --background-color: #ffffff;
+  --white-color: #ffffff;
   --accent-color: #2196f3;
   --logo-first-world-color: #000000;
 }
 
 body {
-  color: #212121;
-  background: #ffffff;
+  color: var(--prinary-text-color);
+  background: var(--white-color);0.
 }
 
 .list {
@@ -18,45 +18,56 @@ body {
 /* logo */
 
 .logo1 {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo2 {
-  color: #212121;
+  color: var(--logo-first-world-color);
 }
 
 /* Site nav */
 
 .site-nav .link {
-  color: #212121;
+  color: var(--prinary-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--prinary-text-color);
 }
 
 /* Contacts */
 
 .contacts .link {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .contacts .link:hover,
 .contacts .link:hover {
-  color: #2196f3;
+  color:var(--accent-color);
 }
 
 /* Hero */
 
 .hero-title {
+
 }
 
 /* Section */
 
 .section-title {
+  
 }
 
 .description {
-  color: #757575;
+  color: var(--secondary-text-color);
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }

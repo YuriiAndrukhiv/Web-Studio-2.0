@@ -1,3 +1,7 @@
+  a {
+    text-decoration: none;
+  }
+
 :root {
   --prinary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -10,6 +14,8 @@
 body {
   color: var(--prinary-text-color);
   background: var(--white-color);
+
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -20,10 +26,12 @@ body {
 
 .logo1 {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
 }
 
 .logo2 {
   color: var(--logo-first-world-color);
+  font-family: Raleway, sans-serif;
 }
 
 /* Studio page */

@@ -4,6 +4,7 @@
   --white-color: #ffffff;
   --accent-color: #2196f3;
   --logo-first-world-color: #000000;
+  --background-filters-color: #f5f4fa;
 }
 
 body {
@@ -48,8 +49,8 @@ body {
 }
 
 .contacts .link:hover,
-.contacts .link:hover {
-  color:var(--accent-color);
+.contacts .link:focus {
+  color: var(--accent-color);
 }
 
 /* Hero */
@@ -74,3 +75,14 @@ body {
 }
 
 /* Portfolio page */
+
+.filters button {
+  color: var(--prinary-text-color);
+  background-color: var(--background-filters-color);
+}
+
+.filters button:hover,
+.filters button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}

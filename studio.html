@@ -11,14 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
-    <header class="page-header">
-      <a href="">
-        <span class="logo1">Web</span><span class="logo2"> Studio </span></a
+    <header>
+      <a class="logo" href="">
+        <span class="first-word-logo">Web</span
+        ><span class="two-word-logo"> Studio </span></a
       >
       <nav>
         <ul class="site-nav list">
@@ -47,40 +47,40 @@
           ДЛЯ ВАШОГО БІЗНЕСУ
         </h1>
 
-        <a href="" class="button">Замовити послугу</a>
+        <!-- <a href="" class="hero-button">Замовити послугу</a> -->
+        <button class="hero-button" type="button">Замовити послугу</button>
       </section>
 
-      <!-- About company -->
-      <section class="section">
-        <h2 class="section-title">Наша компанія</h2>
+      <!-- Feature -->
+      <section class="features section">
         <ul class="list">
           <li>
             <img src="./images/antenna.svg" width="70" alt="Супутник" />
-            <h3>Увага до деталей</h3>
-            <p class="description">
+            <h3 class="features-title">Увага до деталей</h3>
+            <p class="future-description">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
             <img src="./images/clock.svg" width="70" alt="Годинник" />
-            <h3>Пунктуальність</h3>
-            <p class="description">
+            <h3 class="features-title">Пунктуальність</h3>
+            <p class="future-description">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
             <img src="./images/diagram.svg" width="70" alt="Діаграма" />
-            <h3>Планування</h3>
-            <p class="description">
+            <h3 class="features-title">Планування</h3>
+            <p class="future-description">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
             <img src="./images/astronaut.svg" width="70" alt="Астронавт" />
-            <h3>Сучасні технології</h3>
-            <p class="description">
+            <h3 class="features-title">Сучасні технології</h3>
+            <p class="future-description">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -88,8 +88,8 @@
         </ul>
       </section>
 
-      <!-- Type of activity -->
-      <section class="section">
+      <!-- Our work -->
+      <section class="our-work section">
         >
         <h2 class="section-title">Чим ми займаємось</h2>
         <ul class="list">
@@ -99,7 +99,7 @@
               width="370"
               alt="Настільні програми"
             />
-            <p>ДЕСКТОПНІ ЗАСТОСУНКИ</p>
+            <p class="work-description">Десктопні застосунки</p>
           </li>
           <li>
             <img
@@ -107,7 +107,7 @@
               width="370"
               alt="Застосунки для смартфонів"
             />
-            <p>МОБІЛЬНІ ЗАСТОСУНКИ</p>
+            <p class="work-description">Мобільні застосунки</p>
           </li>
           <li>
             <img
@@ -115,13 +115,13 @@
               width="370"
               alt="Естетичні підходи"
             />
-            <p>ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
+            <p class="work-description">Дизайнерські рішення</p>
           </li>
         </ul>
       </section>
 
       <!-- Our team -->
-      <section class="section">
+      <section class="our-team section">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list">
           <li>
@@ -130,24 +130,44 @@
               width="270"
               alt="Портрет"
             />
-            <h3>Микола Кучеренко</h3>
-            <p class="description">Product Designer</p>
+            <h3 class="team-name">Микола Кучеренко</h3>
+            <p class="team-description">Product Designer</p>
             <ul class="list">
-              <li><a href="" aria-label="Istagram link">Istagram</a></li>
-              <li><a href="" aria-label="Twitter link">Twitter</a></li>
-              <li><a href="" aria-label="Facebook link">Facebook</a></li>
-              <li><a href="" aria-label="Linkedin link">Linkedin</a></li>
+              <li>
+                <a class="link" href="" aria-label="Instagram link"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Twitter link">Twitter</a>
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Facebook link">Facebook</a>
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Linkedin link">Linkedin</a>
+              </li>
             </ul>
           </li>
           <li>
             <img src="./images/olha-ivanova.jpg" width="270" alt="Портрет" />
-            <h3>Ольга Іванова</h3>
-            <p class="description">Frontend Developer</p>
+            <h3 class="team-name">Ольга Іванова</h3>
+            <p class="team-description">Frontend Developer</p>
             <ul class="list">
-              <li><a href="" aria-label="Istagram link">Istagram</a></li>
-              <li><a href="" aria-label="Twitter link">Twitter</a></li>
-              <li><a href="" aria-label="Facebook link">Facebook</a></li>
-              <li><a href="" aria-label="Linkedin link">Linkedin</a></li>
+              <li>
+                <a class="link" href="" aria-label="Instagram link"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Twitter link">Twitter</a>
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Facebook link">Facebook</a>
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Linkedin link">Linkedin</a>
+              </li>
             </ul>
           </li>
           <li>
@@ -156,24 +176,44 @@
               width="270"
               alt="Портрет"
             />
-            <h3>Андрій Шевченко</h3>
-            <p class="description">Marketing</p>
+            <h3 class="team-name">Андрій Шевченко</h3>
+            <p class="team-description">Marketing</p>
             <ul class="list">
-              <li><a href="" aria-label="Istagram link">Istagram</a></li>
-              <li><a href="" aria-label="Twitter link">Twitter</a></li>
-              <li><a href="" aria-label="Facebook link">Facebook</a></li>
-              <li><a href="" aria-label="Linkedin link">Linkedin</a></li>
+              <li>
+                <a class="link" href="" aria-label="Instagram link"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Twitter link">Twitter</a>
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Facebook link">Facebook</a>
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Linkedin link">Linkedin</a>
+              </li>
             </ul>
           </li>
           <li>
             <img src="./images/ivan-mukolaiv.jpg" width="270" alt="Портрет" />
-            <h3>Іван Миколаїв</h3>
-            <p class="description">UI Designer</p>
+            <h3 class="team-name">Іван Миколаїв</h3>
+            <p class="team-description">UI Designer</p>
             <ul class="list">
-              <li><a href="" aria-label="Istagram link">Istagram</a></li>
-              <li><a href="" aria-label="Twitter link">Twitter</a></li>
-              <li><a href="" aria-label="Facebook link">Facebook</a></li>
-              <li><a href="" aria-label="Linkedin link">Linkedin</a></li>
+              <li>
+                <a class="link" href="" aria-label="Instagram link"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Twitter link">Twitter</a>
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Facebook link">Facebook</a>
+              </li>
+              <li>
+                <a class="link" href="" aria-label="Linkedin link">Linkedin</a>
+              </li>
             </ul>
           </li>
         </ul>
@@ -237,8 +277,8 @@
       </section>
     </main>
 
+    <!-- Footer -->
     <footer>
-      <!-- Footer -->
       <a href=""
         ><span class="logo1">Web</span><span class="logo2"> Studio</span></a
       >
@@ -250,10 +290,18 @@
       <div>
         <b>ПРИЄДНУЙТЕСЬ</b>
         <ul class="list">
-          <li><a href="" aria-label="Istagram link">Istagram</a></li>
-          <li><a href="" aria-label="Twitter link">Twitter</a></li>
-          <li><a href="" aria-label="Facebook link">Facebook</a></li>
-          <li><a href="" aria-label="Linkedin link">Linkedin</a></li>
+          <li>
+            <a class="link" href="" aria-label="Instagram link">Instagram</a>
+          </li>
+          <li>
+            <a class="link" href="" aria-label="Twitter link">Twitter</a>
+          </li>
+          <li>
+            <a class="link" href="" aria-label="Facebook link">Facebook</a>
+          </li>
+          <li>
+            <a class="link" href="" aria-label="Linkedin link">Linkedin</a>
+          </li>
         </ul>
       </div>
 

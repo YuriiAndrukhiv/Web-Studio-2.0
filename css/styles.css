@@ -24,7 +24,7 @@ body {
   list-style: none;
 }
 
-                                /* Header */
+/* Header */
 /* logo */
 
 .logo {
@@ -113,7 +113,6 @@ body {
 }
 
 .future-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: var(--secondary-text-color);
@@ -136,7 +135,6 @@ body {
 }
 
 .team-description {
-  font-weight: 400;
   font-size: 16px;
   color: #757575;
 }
@@ -148,6 +146,8 @@ body {
 /* Portfolio page */
 
 .button {
+  
+  cursor: pointer;
   color: var(--white-color);
   background-color: var(--accent-color);
 }
@@ -163,8 +163,7 @@ body {
   background-color: var(--accent-color);
 }
 
-
-                            /* Footer */
-footer .link{
+/* Footer */
+footer .link {
   text-decoration: none;
 }

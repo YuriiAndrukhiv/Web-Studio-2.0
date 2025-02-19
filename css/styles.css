@@ -201,6 +201,10 @@ footer address {
   background-color: chocolate;
 }
 
+.social-media .link {
+  text-decoration: none;
+}
+
 footer b {
   background-color: chocolate;
   font-size: 14px;

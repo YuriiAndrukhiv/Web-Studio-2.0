@@ -13,6 +13,16 @@
   --background-filters-color: #f5f4fa;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: var(--first-family);
   letter-spacing: 0.03em;
@@ -221,6 +231,14 @@ footer b {
 }
 
 .footer-button {
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  border-radius: 4px;
+  
+
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
@@ -228,4 +246,10 @@ footer b {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+
+footer .icon {
+  height: 20px;
+  width: 24px;
+  background-color: var(--white-color);
 }

@@ -47,11 +47,11 @@ body {
 /* Site nav */
 
 .site-nav .link {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: var(--prinary-text-color);
-  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -66,8 +66,8 @@ body {
 /* Contacts */
 
 .contacts .link {
-  color: var(--secondary-text-color);
   text-decoration: none;
+  color: var(--secondary-text-color);
 }
 
 .contacts .link:hover,
@@ -107,7 +107,6 @@ body {
 /* Feature */
 
 .features-title {
-  font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -146,8 +145,11 @@ body {
 /* Portfolio page */
 
 .button {
-  
   cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   color: var(--white-color);
   background-color: var(--accent-color);
 }
@@ -163,7 +165,60 @@ body {
   background-color: var(--accent-color);
 }
 
+.portfolio-title {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.portfolio-card {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--white-color);
+  background-color: chocolate;
+}
+
 /* Footer */
+
+address {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--white-color);
+  background-color: chocolate;
+}
+
+/* .footer-contacts {
+  font-size: 14px;
+  line-height: 24px;
+
+  background-color: chocolate;
+} */
+
+.footer-contacts .link {
+    font-size: 14px;
+  line-height: 24px;
+
+
+  color: var(--white-color);
+    background-color: chocolate;
+}
+
 footer .link {
   text-decoration: none;
+}
+
+.footer-button {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }

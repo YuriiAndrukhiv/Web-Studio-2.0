@@ -186,31 +186,34 @@ body {
 
 /* Footer */
 
-address {
+footer address {
   font-size: 14px;
   line-height: 24px;
   color: var(--white-color);
   background-color: chocolate;
 }
-
-/* .footer-contacts {
-  font-size: 14px;
-  line-height: 24px;
-
-  background-color: chocolate;
-} */
 
 .footer-contacts .link {
-    font-size: 14px;
+  text-decoration: none;
+  font-size: 14px;
   line-height: 24px;
-
-
   color: var(--white-color);
-    background-color: chocolate;
+  background-color: chocolate;
 }
 
-footer .link {
-  text-decoration: none;
+footer b {
+  background-color: chocolate;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer-email {
+  background-color: chocolate;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-button {

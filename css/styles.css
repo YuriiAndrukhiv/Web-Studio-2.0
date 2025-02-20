@@ -13,21 +13,18 @@
   --background-filters-color: #f5f4fa;
 }
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
   font-family: var(--first-family);
   letter-spacing: 0.03em;
   color: var(--prinary-text-color);
   background-color: var(--white-color);
+}
+
+.container {
+  width: 1230;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0, auto;
 }
 
 .list {
@@ -233,11 +230,10 @@ footer b {
 .footer-button {
   display: inline-block;
   padding-top: 10px;
-  padding-right: 10px;
+  padding-right: 28px;
   padding-bottom: 10px;
   padding-left: 29px;
   border-radius: 4px;
-  
 
   text-decoration: none;
   font-weight: 700;
@@ -249,7 +245,10 @@ footer b {
 }
 
 footer .icon {
-  height: 20px;
+  display: inline-block;
+  height: 24px;
   width: 24px;
+  vertical-align: middle;
+
   background-color: var(--white-color);
 }

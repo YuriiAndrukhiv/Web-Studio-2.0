@@ -20,14 +20,22 @@ body {
   background-color: var(--white-color);
 }
 
+/* Container */
+
 .container {
   width: 1230;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0, auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 2px solid darkblue;
 }
 
 .list {
+  padding: 0;
+  margin: 0;
+
   list-style: none;
 }
 
@@ -84,13 +92,19 @@ body {
 
 /* Hero */
 
+.hero {
+  text-align: center;
+}
+
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06em;
   color: var(--white-color);
-  text-align: center;
   background-color: chocolate;
 }
 
@@ -107,6 +121,9 @@ body {
 /* Section */
 
 .section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 36px;
   text-align: center;
 }
@@ -114,17 +131,27 @@ body {
 /* Feature */
 
 .features-title {
+  margin-top: 30;
+  margin-bottom: 10;
+
   font-size: 14px;
   text-transform: uppercase;
 }
 
 .future-description {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 14px;
   line-height: 24px;
   color: var(--secondary-text-color);
 }
 
-/* Type of activity */
+/* Our work */
+.work {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .work-description {
   font-weight: 700;
@@ -133,7 +160,7 @@ body {
   color: var(--white-color);
   background-color: chocolate;
 }
-/* Our-team */
+/* Our team */
 
 .team-name {
   font-weight: 500;
@@ -229,6 +256,8 @@ footer b {
 
 .footer-button {
   display: inline-block;
+  min-width: 200px;
+  text-align: center;
   padding-top: 10px;
   padding-right: 28px;
   padding-bottom: 10px;
@@ -240,6 +269,7 @@ footer b {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   color: var(--white-color);
   background-color: var(--accent-color);
 }

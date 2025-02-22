@@ -140,9 +140,9 @@ body {
   margin-bottom: 94px;
 }
 
- .feature-image {
+.feature-image {
   margin-bottom: 10px;
- }
+}
 
 .features-title {
   margin-top: 0;
@@ -159,6 +159,10 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: var(--secondary-text-color);
+}
+
+.future .future-list .li:last-child .future-description {
+  
 }
 
 /* Our work */
@@ -210,6 +214,10 @@ body {
 .social-networks {
   margin-top: 0;
   margin-bottom: 24px;
+}
+
+.team-list li:last-child .social-networks {
+  margin-bottom: 0;
 }
 
 .social-networks .link {

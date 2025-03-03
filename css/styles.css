@@ -161,10 +161,6 @@ body {
   color: var(--secondary-text-color);
 }
 
-.future .future-list .li:last-child .future-description {
-  
-}
-
 /* Our work */
 
 .work {
@@ -247,19 +243,30 @@ body {
   background-color: var(--accent-color);
 }
 
+.portfilio-image {
+  margin-bottom: 20px;
+}
+
 .portfolio-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
 }
 
 .portfolio-description {
+  margin: 0;
+
   font-size: 16px;
   line-height: 30px;
   color: #757575;
 }
 
 .portfolio-card {
+  margin: 0;
+
   font-size: 18px;
   line-height: 28px;
   color: var(--white-color);

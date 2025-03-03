@@ -135,7 +135,7 @@ body {
 
 /* Feature */
 
-.features {
+.feature {
   margin-top: 0;
   margin-bottom: 94px;
 }
@@ -144,7 +144,7 @@ body {
   margin-bottom: 10px;
 }
 
-.features-title {
+.feature-title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -152,7 +152,7 @@ body {
   text-transform: uppercase;
 }
 
-.future-description {
+.feature-description {
   margin-top: 0;
   margin-bottom: 0;
 

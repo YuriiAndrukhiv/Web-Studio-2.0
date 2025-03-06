@@ -59,9 +59,29 @@ body {
 
 /* Studio page */
 
-/* Site nav */
+/* Main-nav */
 
-.site-nav .link {
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+/* Site-nav  */
+
+.site-nav {
+  display: flex;
+  margin-left: 86px;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.site-nav .link,
+.header-contacts .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -78,15 +98,22 @@ body {
   color: yellowgreen;
 }
 
-/* Contacts */
+/* Header-contacts */
 
-.contacts .link {
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+
   text-decoration: none;
   color: var(--secondary-text-color);
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.header-contacts .item + .item {
+  margin-left: 30px;
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
   color: var(--accent-color);
 }
 
@@ -138,6 +165,10 @@ body {
 .feature {
   margin-top: 0;
   margin-bottom: 94px;
+}
+
+.feature-list {
+  display: flex;
 }
 
 .feature-image {

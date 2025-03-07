@@ -10,7 +10,8 @@
   --white-color: #ffffff;
   --accent-color: #2196f3;
   --logo-first-world-color: #000000;
-  --background-filters-color: #f5f4fa;
+  --background--color: #f5f4fa;
+  --footer-background: #2f303a;
 }
 
 body {
@@ -40,6 +41,13 @@ body {
 }
 
 /* Header */
+
+/* Header-nav */
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 /* logo */
 
 .logo {
@@ -59,12 +67,6 @@ body {
 
 /* Studio page */
 
-/* Main-nav */
-
-.main-nav {
-  display: flex;
-  align-items: center;
-}
 /* Site-nav  */
 
 .site-nav {
@@ -171,6 +173,10 @@ body {
   display: flex;
 }
 
+.feature-item + .feature-item {
+  margin-left: 30px;
+}
+
 .feature-image {
   margin-bottom: 10px;
 }
@@ -216,7 +222,15 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 
-  background-color: violet;
+  background-color: var(--background--color);
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-unit + .team-unit {
+  margin-left: 40px;
 }
 
 .team-image {
@@ -243,12 +257,19 @@ body {
   margin-bottom: 24px;
 }
 
-.team-list li:last-child .social-networks {
-  margin-bottom: 0;
-}
-
 .social-networks .link {
   text-decoration: none;
+}
+
+/* Regular customers */
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+}
+
+.customers-item + .customers-item {
+  margin-left: 30px;
 }
 
 /* Portfolio page */
@@ -265,7 +286,7 @@ body {
 
 .filters button {
   color: var(--prinary-text-color);
-  background-color: var(--background-filters-color);
+  background-color: var(--background-color);
 }
 
 .filters button:hover,
@@ -306,14 +327,48 @@ body {
 
 /* Footer */
 
-footer address {
+footer {
+  background-color: var(--footer-background);
+}
+
+footer .content {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.la {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+footer .two-word-logo {
+  color: var(--white-color);
+}
+
+address {
+  /* display: block; */
+  margin-bottom: 9px;
+
+  font-family: var(--first-family);
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: var(--white-color);
   background-color: chocolate;
 }
 
+.mail {
+  margin-bottom: 9px;
+}
+
 .footer-contacts .link {
+  display: block;
   text-decoration: none;
   font-size: 14px;
   line-height: 24px;
@@ -325,31 +380,61 @@ footer address {
   text-decoration: none;
 }
 
-footer b {
+.join-in-title,
+.subscribe-title {
+  display: block;
+
   background-color: chocolate;
   font-size: 14px;
   text-transform: uppercase;
   color: var(--white-color);
 }
 
+.join-in-title {
+  margin-bottom: 20px;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media .item + .item {
+  margin-left: 10px;
+}
+
+.subscribe-elements {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.subscribe-elements .element + .element {
+  margin: 12px;
+}
+
 .footer-email {
-  background-color: chocolate;
+  margin: 0;
+
+  min-width: 358px;
+  min-height: 50px;
+  background-color: gray;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-button {
   display: inline-block;
-  min-width: 200px;
-  text-align: center;
+  margin: 0;
   padding-top: 10px;
   padding-right: 28px;
   padding-bottom: 10px;
   padding-left: 29px;
-  border-radius: 4px;
+  min-width: 200px;
+  /* height: 50px; */
 
+  text-align: center;
+  border-radius: 4px;
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;

@@ -383,15 +383,12 @@ address {
 .join-in-title,
 .subscribe-title {
   display: block;
+  margin-bottom: 20px;
 
   background-color: chocolate;
   font-size: 14px;
   text-transform: uppercase;
   color: var(--white-color);
-}
-
-.join-in-title {
-  margin-bottom: 20px;
 }
 
 .social-media {
@@ -408,9 +405,9 @@ address {
   margin: 0;
 }
 
-.subscribe-elements .element + .element {
+/* .subscribe-elements .element + .element {
   margin: 12px;
-}
+} */
 
 .footer-email {
   margin: 0;
